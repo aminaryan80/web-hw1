@@ -1,0 +1,46 @@
+p {
+	margin: 0;
+}
+
+hr {
+	margin: 0;
+}
+
+.content_div {
+	height: 86vh;
+}
+
+.footer_div {
+	bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.seats_div {
+	background-color: white;
+	border-radius: 25px;
+	padding: 24px;
+}
+
+.bigColumn {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.smallColumn {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.editButton {
+	width: 96px;
+	margin-top: 24px;
+}
