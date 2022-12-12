@@ -7,6 +7,12 @@
     font-family: iran-sans;
 }
 
+h5 {
+	background-color: #222222B0;
+    border-radius: 8px;
+    padding: 4px;
+}
+
 .body_div {
     margin: 0;
     background-image: url("pic.jpg");
@@ -58,6 +64,7 @@
 	position: absolute;
     bottom: 10px;
     right: 16px;
+	color: white;
 }
 
 .footer_div {
@@ -68,6 +75,25 @@
 	height: 80px;
 	padding: 8px;
 	
+}
+
+.adImage {
+	position:relative;
+}
+
+.adImage::after {
+	content: '';
+	position: absolute;
+	width: 100%; height: 100%;
+	background: linear-gradient(to top,rgba(0,0,0,0.80),rgba(255,255,255,0.10) 90%);
+}
+
+.adImageBig {
+	max-height: 100%;
+}
+
+.adImageSmall {
+	max-width: 100%;
 }
 
 .autocomplete {
