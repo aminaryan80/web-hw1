@@ -207,3 +207,22 @@ input[type="submit"] {
 .custom-select {
     display: inline-block;
 }
+
+
+.card {
+    background: #d3d3d3;
+    border-radius: 8px;
+    width: 100%;
+    padding: 16px 24px;
+    margin-bottom: 8px;
+    display: flex;
+
+
+}
+
+.times {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
