@@ -1,3 +1,15 @@
+@media (prefers-color-scheme: dark) {
+	.seats_div {
+		background-color: black;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	.seats_div {
+		background-color: white;
+	}
+}
+
 p {
 	margin: 0;
 }
@@ -17,7 +29,6 @@ hr {
 }
 
 .seats_div {
-	background-color: white;
 	border-radius: 25px;
 	padding: 24px;
 }
