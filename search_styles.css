@@ -1,42 +1,3 @@
-<<<<<<< HEAD
-.body_div {
-	padding-top: 1%;
-	padding-bottom: 1%;
-	height: auto !important;
-	background: #777777;
-}
-
-.input_div {
-	padding: 16px;
-    background-color: #777777;
-    border-radius: 32px;
-}
-
-.ticketItem {
-	background-color: white;
-	border-radius: 8px;
-	padding: 32px 16px;
-	margin: 16px;
-}
-
-.timeDiv {
-	display: inline-block;
-	margin: 0 !important;
-}
-
-.typeLink {
-	margin-top: -16px;
-	padding: 16px;
-	border: 1px solid gray;
-	border-radius: 8px;
-	display: inline-block;
-	float: left;
-	margin-right: 16px;
-	color: black;
-    text-decoration: none;
-}
-||||||| f202607
-=======
 @media (prefers-color-scheme: dark) {
 	.seats_div {
 		background-color: black;
@@ -106,4 +67,3 @@
 	margin-right: 16px;
     text-decoration: none;
 }
->>>>>>> 981f58b58ab2d81d197669a17bea67e963245225
