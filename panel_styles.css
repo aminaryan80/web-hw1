@@ -1,0 +1,16 @@
+.typeLink {
+	cursor: default;
+}
+
+
+.typeLink:hover {
+	border-color: blue;
+}
+
+.ticketItem {
+	padding-bottom: 8px;
+}
+
+.peopleDiv {
+	margin-top: 16px;
+}
