@@ -1,3 +1,15 @@
+@media (prefers-color-scheme: dark) {
+	.login_div {
+		background-color: black;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	.login_div {
+		background-color: white;
+	}
+}
+
 p {
 	margin: 0;
 }
@@ -19,7 +31,6 @@ hr {
 }
 
 .login_div {
-	background-color: white;
 	border-radius: 25px;
 	padding: 24px;
 }
